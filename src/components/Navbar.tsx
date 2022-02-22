@@ -28,7 +28,6 @@ user-select: none;
         aspect-ratio: 1;
         overflow: hidden;
         border-radius: 50%;
-        background-color: red;
 
         img {
             width: 40px;
@@ -41,7 +40,7 @@ user-select: none;
             color: white;
             font-size: 40px;
             transition: .3s ease-in-out;
-            font-family: 'PP Neue Montreal';
+            font-family: 'PP Neue Montreal', sans-serif;
         }
         
         button.active {

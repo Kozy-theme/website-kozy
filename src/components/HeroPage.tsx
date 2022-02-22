@@ -14,12 +14,15 @@ position: relative;
   
   &-text {
     color: white;
-    padding-top: 15%;
+    padding-top: 12%;
     text-align: center;
     
     h1 {
-      font-size: 70px;
-      font-family: 'PP Neue Montreal';
+      font-size: 120px;
+      font-weight: 900;
+      line-height: 80%;
+      letter-spacing: -3.5px;
+      font-family: 'Inter', sans-serif;    
     }
     
     h3 {
@@ -28,7 +31,7 @@ position: relative;
       font-size: 15px;
       font-weight: lighter;
       padding: 10px 0 40px 0;
-      font-family: 'JetBrainsMono Nerd Font Mono', monospace;
+      font-family: 'JetBrains Mono', monospace;
     }
 
     &-cta {
@@ -52,7 +55,7 @@ position: relative;
         padding: 10px 30px;
         letter-spacing: 1px;
         background-color: #24BBB2;
-        font-family: 'PP Neue Montreal';
+        font-family: 'Inter', sans-serif;    
 
         &:hover {
           background-color: #24bbb1c7;
@@ -68,7 +71,7 @@ position: relative;
         padding: 10px 30px;
         background-color: #2f3e4771;
         border: 1px solid #43525B;
-        font-family: 'JetBrainsMono Nerd Font Mono';
+        font-family: 'JetBrains Mono', monospace;
       }
     }
 
@@ -78,7 +81,7 @@ position: relative;
       opacity: 70%;
       position: fixed;
       transform: translate(-50%, -5%);
-      font-family: 'JetBrainsMono Nerd Font Mono';
+      font-family: 'JetBrains Mono', monospace;
     }
   }
 }
@@ -89,7 +92,7 @@ function HeroPage() {
     <Hero>
       <div className="hero__items">
         <div className="hero__items-text">
-          <h1>Kozy Theme</h1>
+          <h1>Kozy <br /> Theme</h1>
           <h3>Color theme extension that will make your editing window look cozy
              Available for VS Code for now, Atom and Sublime is still on work.</h3>
           <div className="hero__items-text-cta">
